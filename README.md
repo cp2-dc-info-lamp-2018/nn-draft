@@ -17,12 +17,12 @@ Neurônios reais:
 - O, `1` linha e `out` colunas
 
 Calcule
-```
+$$
 para i=1..hidden
-H_i = Σ_(j=1..in) [I_j W1_j_i]
+H_i = \sum_(j=1..in) [I_j W1_j_i]
 
 para i=1..out
-O_i = Σ_(j=1..hidden) [sigmoid( H_j W2_j_i)]
-```
+O_i = \sum_(j=1..hidden) [sigmoid( H_j W2_j_i)]
+$$
 
 Use seus conhecimentos e algoritmos de matrizes em python para realizar esta tarefa.
